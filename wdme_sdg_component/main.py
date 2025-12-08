@@ -30,7 +30,7 @@ class CurrentState(BaseModel):
     current_state:Dict[str, str]
 
 class SensorDefiniton(CurrentState):
-    properties:List[Dict[str, Any]]
+    attributes:List[Dict[str, Any]]
     step: int
     reference_data: Optional[Dict[str, List[Dict[str,Any]]]] = None
     order: Optional[List[str]] = None
@@ -78,7 +78,7 @@ def get_info(response: Response):
 def put_pilot_state(pilot:str, sensor:str, payload:CurrentState, response: Response):
     try:
         data = payload.model_dump()
-        if sdg.set_current_state(pilot, sensor, data):
+        if 'current_state' in data and sdg.set_current_state(pilot, sensor, data['current_state']):
             response.status_code =200
         else:
             response.status_code=404

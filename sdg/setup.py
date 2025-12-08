@@ -25,7 +25,7 @@ extra_files = package_files('waterverse_sdg/data')
 
 setuptools.setup(
     name='waterverse_sdg',
-    version='1.0.0.2',
+    version='1.0.0.3',
     author='Gareth Lewis',
     author_email='g.lewis2@exeter.ac.uk',
     description='SDG for WATERVERSE project',

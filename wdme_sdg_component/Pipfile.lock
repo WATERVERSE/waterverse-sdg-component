@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "86deb7ba0673f836a3277c41f97d502f65c7f7a6fd9a695ca3e0a44267bc94ca"
+            "sha256": "16ceac4884e3e7872068596277165fb42f95a481ee59afae9239a0d355c6f246"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -465,9 +465,9 @@
             "version": "==0.38.0"
         },
         "waterverse-sdg": {
-            "file": "packages/waterverse_sdg-1.0.0.2-py3-none-any.whl",
+            "file": "packages/waterverse_sdg-1.0.0.3-py3-none-any.whl",
             "hashes": [
-                "sha256:97045a50af4e6e53e0ec2197b74c96eedc795314caafa925f209587b4372b634"
+                "sha256:22b1d65573ca9c717b0f37deffb3d4322d78585fe4cf5589b6f2d7707c478531"
             ]
         }
     },
