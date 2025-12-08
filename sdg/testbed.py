@@ -3,7 +3,7 @@ import datetime
 import json
 
 
-import sdg.sdg as sdg
+import waterverse_sdg.sdg as sdg
 
 import unexecore.testharness
 import unexecore.time
@@ -15,7 +15,7 @@ class sdg_Harness(unexecore.testharness.TestHarness):
 
         start_date = unexecore.time.datetime_to_fiware(datetime.datetime.now(datetime.timezone.utc).replace(minute=0, hour=0, second=0, microsecond=0))
 
-        datapath = 'sdg' + os.sep
+        datapath = 'waterverse_sdg' + os.sep
 
         pilot = 'pwn-1'
         try:
