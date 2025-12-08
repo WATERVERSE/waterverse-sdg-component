@@ -88,6 +88,7 @@ The Cyprus pilot (cy_payload.json) is a useful example. The pilot required the d
 To create the synthetic data model, a json definition file was created that defined consumption and continuous flow as a set of attributes. Whilst each meter could have been defined as a separate sensor, and associated json file, defining them as a single group reduced the definition complexity / duplication and allowed multiple sensor values to be generated in a single ‘get_data’ call.
 
 To generate the flow values for each sensor, a table of data was generated that mapped usage patterns to flow amounts, using an 8 value over 24 look-up, such that when updated, datetime would be translated to one of 8 values:
+
 ![img_2.png](img_2.png)
 
 
