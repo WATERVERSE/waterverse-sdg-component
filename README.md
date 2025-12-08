@@ -5,7 +5,7 @@
 - [Overview](#overview)
 - [Functionality](#functionality)
  - [Synthetic Data Generation Package](#SDG-Package)
- - [WDME SDG Component](#WDME-SDG-SERVER)
+ - [WDME SDG Component](#WDME SDG Component)
 - [Installation](#installation)
 - [Limitations](#limitations)
 - [Acknowledgments](#acknowledgments)
