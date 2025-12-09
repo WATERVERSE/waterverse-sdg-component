@@ -109,7 +109,7 @@ def get_value(data:dict) -> float:
 
 
 def get_config(config:dict, current_attrib:str) -> dict:
-    for entry in config['properties']:
+    for entry in config['attributes']:
         if 'name' in entry and entry['name'] == current_attrib:
             return entry
 
@@ -329,7 +329,7 @@ def get_data(pilot:str, sensor:str, count:int) -> list:
                         results[print_name] = round(attrib_results[attrib],2)
                 else:
                     config = pilot_model[pilot][sensor]['config']
-                    for prop in config['properties']:
+                    for prop in config['attributes']:
 
                         attrib = prop['name']
 

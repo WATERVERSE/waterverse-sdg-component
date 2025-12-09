@@ -1,5 +1,5 @@
 
-{"properties":
+{"attributes":
   [
       {"name": "qOlst",
           "range":[
@@ -11,6 +11,7 @@
           "delta_limit": 0.1,
           "output-name":"urn:ngsi-ld:DeviceMeasurement:NL-RWS-2-LMW_AFVOER-Olst-OLST"
           },
+
       {"name":"clLobith",
       "steps":[
               [  50 , 136.0],
